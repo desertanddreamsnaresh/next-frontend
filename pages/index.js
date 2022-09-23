@@ -7,7 +7,7 @@ import Script from "next/script"
 import { useEffect } from 'react';
 import imageUrlBuilder from '@sanity/image-url'
 import Link from 'next/link'
-import NavBar from '../components/NavBar';
+// import NavBar from '../components/NavBar';
 
 export default function Home({ blogs, profile}) {
   const client = createClient({
@@ -93,7 +93,7 @@ export default function Home({ blogs, profile}) {
 
 
       </Head> 
-      <NavBar profile={profile} />
+      {/* <NavBar profile={profile} /> */}
      
       <div
         className="pointer-events-none fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 opacity-0 transition-opacity lg:hidden" /> 

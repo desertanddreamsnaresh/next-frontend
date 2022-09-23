@@ -7,4 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  rules: {
+    "react/no-unknown-property": ["error", { ignore: ["jsx"] }],
+  },
 }
